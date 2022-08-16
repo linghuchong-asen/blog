@@ -3,7 +3,12 @@
 # 确保脚本抛出遇到的错误
 set -e
 
+# 推送到master分支
+git add -A
+git commit -m '删除百度定时推送'
+git push git@github.com:linghuchong-asen/blog.git master:master
 
+#推送到gh-pages分支
 push_addr=`git remote get-url --push origin` # git提交地址，也可以手动设置，比如：push_addr=git@github.com:xugaoyi/vuepress-theme-vdoing.git
 commit_info=`git describe --all --always --long`
 dist_path=docs/.vuepress/dist # 打包生成的文件夹路径
