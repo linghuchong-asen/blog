@@ -10,7 +10,7 @@ git pull git@github.com:linghuchong-asen/blog.git master
 git push git@github.com:linghuchong-asen/blog.git master:master
 
 # 推送构建文件到gh-pages
-push_addr=`git@github.com:linghuchong-asen/blog.git` # git提交地址
+push_addr=git@github.com:linghuchong-asen/blog.git # git提交地址
 commit_info=`git describe --all --always --long`
 dist_path=docs/.vuepress/dist # 打包生成的文件夹路径
 push_branch=gh-pages # 推送的分支
