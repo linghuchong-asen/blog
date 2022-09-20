@@ -5,7 +5,7 @@ set -e
 
 # 先推送master分支到远程master分支
 git add -A
-git commit -m '增加配置'
+git commit -m '去除发Vicon背景'
 git pull git@github.com:linghuchong-asen/blog.git master
 git push git@github.com:linghuchong-asen/blog.git master:master
 
