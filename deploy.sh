@@ -3,14 +3,19 @@
 # 确保脚本抛出遇到的错误
 set -e
 
+# 先推送master分支到远程master分支
+git add -A
+git commit -m '增加配置'
+git push git@github.com:linghuchong-asen/blog.git master:master
 
-push_addr=`git remote get-url --push origin` # git提交地址，也可以手动设置，比如：push_addr=git@github.com:xugaoyi/vuepress-theme-vdoing.git
+# 推送构建文件到gh-pages
+push_addr=`git@github.com:linghuchong-asen/blog.git` # git提交地址
 commit_info=`git describe --all --always --long`
 dist_path=docs/.vuepress/dist # 打包生成的文件夹路径
 push_branch=gh-pages # 推送的分支
 
 # 生成静态文件
-npm run build
+yarn build
 
 # 进入生成的文件夹
 cd $dist_path

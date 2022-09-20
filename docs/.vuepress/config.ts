@@ -12,12 +12,13 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
   theme: "vdoing", // 使用npm主题包
   // theme: resolve(__dirname, '../../vdoing'), // 使用本地主题包
 
+  // 多语言配置功能
   locales: {
     "/": {
       lang: "zh-CN",
-      title: "Evan's blog",
+      title: "asen blog",
       description:
-        "web前端技术博客,专注web前端学习与总结。JavaScript,js,ES6,TypeScript,vue,React,python,css3,html5,Node,git,github等技术文章。",
+        "前端知识博客;注重图形学、工程化、ts,vue方向;结构化、体系化的知识库",
     },
   },
   base: "/blog/", // 默认'/'。如果你想将你的网站部署到如 https://foo.github.io/bar/，那么 base 应该被设置成 "/bar/",（否则页面将失去样式等文件）
@@ -223,7 +224,7 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
       {
         name: "keywords",
         content:
-          "前端博客,个人技术博客,前端,前端开发,前端框架,web前端,前端面试题,技术文档,学习,面试,JavaScript,js,ES6,TypeScript,vue,python,css3,html5,Node,git,github,markdown",
+          "前端知识博客;注重图形学、工程化、ts,vue方向;结构化、体系化的知识库",
       },
     ],
     ["meta", { name: "baidu-site-verification", content: "7F55weZDDc" }], // 百度统计的站长验证（你可以去掉）
