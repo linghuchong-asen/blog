@@ -1,1 +1,37 @@
-<mxfile host="app.diagrams.net" modified="2022-11-20T23:25:02.583Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" version="20.5.3" etag="PJXhkGFYE7pHGxA3fPAU" type="github"><diagram id="cjs5cMYpWu3yhjerSgPW">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-11-20T23:28:11.687Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="GpOIWzPoNNsLMUyoOr8u" version="20.5.3" type="github">
+  <diagram id="cjs5cMYpWu3yhjerSgPW" name="第 1 页">
+    <mxGraphModel dx="1038" dy="571" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="gPv0gKWDtR1v-yf-6wsD-1" value="样式定制，form，table增删改查，Vue，react使用" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="210" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="gPv0gKWDtR1v-yf-6wsD-2" value="工程化，无论在第三阶段从事哪种，工程化都是要用到的，要用工程化的思维去开发，能够提升开发者的开发效率，赋能团队，降低上手成本，形成规范" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="440" y="180" width="160" height="105" as="geometry" />
+        </mxCell>
+        <mxCell id="gPv0gKWDtR1v-yf-6wsD-3" value="图形学" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="640" y="130" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="gPv0gKWDtR1v-yf-6wsD-4" value="node.js服务端" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="640" y="210" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="gPv0gKWDtR1v-yf-6wsD-5" value="音视频开发" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="640" y="300" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="gPv0gKWDtR1v-yf-6wsD-6" value="第一阶段" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="290" y="70" width="60" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="gPv0gKWDtR1v-yf-6wsD-7" value="第二阶段" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="470" y="70" width="60" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="gPv0gKWDtR1v-yf-6wsD-8" value="第三阶段" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="660" y="70" width="60" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="gPv0gKWDtR1v-yf-6wsD-9" value="&lt;font style=&quot;font-size: 10px&quot;&gt;日期：2022.11.20&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="255" y="110" width="130" height="20" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
